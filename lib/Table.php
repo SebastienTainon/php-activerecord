@@ -391,7 +391,7 @@ class Table
 		return $ret;
 	}
 
-	private function &process_data($hash)
+	public function &process_data($hash)
 	{
 		if (!$hash)
 			return $hash;
